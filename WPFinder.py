@@ -1,4 +1,5 @@
 from service.finders import finders
+from service.xmlrpc import xmlrpc
 import optparse
 
 class WPFinder:
@@ -23,6 +24,8 @@ class WPFinder:
 
         if optInput.url != None:
             finders().searchAdminUser(optInput.url)
+            print("Admin Enumeration Finished. Now Checking XMLRPC!")
+            xmlrpc().createAndSendRequest(optInput.url)
         else:
             print("Please give any wordpress site url!")
             exit

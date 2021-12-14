@@ -9,4 +9,8 @@ This tool helps us to finding admin users on wordpress sites.
 * Usage :
     - $ python3 WPFinder.py -u 'URL'
 
+
 * Please don't use this tool for illegal activities.
+
+* ChangeLog \ 
+    [changelog.md]
