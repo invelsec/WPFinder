@@ -13,4 +13,4 @@ This tool helps us to finding admin users on wordpress sites.
 * Please don't use this tool for illegal activities.
 
 * ChangeLog \ 
-    [changelog.md]
+    Check changelog file
