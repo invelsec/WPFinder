@@ -20,7 +20,7 @@ This tool helps us to finding admin users and Checking XmlRPC Features (Pingback
     Educational use only!
 
 ### Changelog  
-   - Check Changelog File -> [changelog.md]()
+   - Check Changelog File -> [ChangeLog](https://github.com/invelsec/WPFinder/blob/master/changelog.md)
 
    
    
