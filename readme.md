@@ -1,16 +1,26 @@
-# WPFinder
-## Find 'Admin' Users on Wordpress Based Sites.
+## WPFinder
 
-This tool helps us to finding admin users on wordpress sites.
+### Simple Wordpress Enumeration Tool.
 
-* Install Requirements:
-    - pip install -r requirements.txt
+This tool helps us to finding admin users and Checking XmlRPC Features (Pingback etc.) on wordpress sites.
 
-* Usage :
-    - $ python3 WPFinder.py -u 'URL'
+**Install Requirements:**
+> $ pip install -r requirements.txt
 
+### Usage :
+    	
+   **Checking Admin User & XMLRPC Features**
+> $ python3 WPFinder.py -u 'URL'	 
+    
+   **Checking XMLRPC Pingback Feature**
+> $ python3 WPFinder.py -u 'URL' -X 'Pingback_URL'
 
-* Please don't use this tool for illegal activities.
+### Attention
+- Please don't use this tool for illegal activities. 
+    Educational use only!
 
-* ChangeLog \ 
-    Check changelog file
+### Changelog  
+   - Check Changelog File -> [changelog.md]()
+
+   
+   
